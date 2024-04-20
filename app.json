@@ -27,6 +27,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": ["@config-plugins/detox"]
+    "plugins": [
+      "@config-plugins/detox"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3c28a70b-0bf6-4838-af3c-3801c33be65a"
+      }
+    }
   }
 }
